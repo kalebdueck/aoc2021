@@ -1,0 +1,9 @@
+{
+    "name": "kalebdueck/aoc2021",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Work\\": "work/"
+        }
+    }
+}
