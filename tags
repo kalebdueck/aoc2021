@@ -1,0 +1,120 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ClassLoader	vendor/composer/ClassLoader.php	/^class ClassLoader$/;"	c
+ComposerAutoloaderInit0b99c8dd6df3283b102a8e838497c4b3	vendor/composer/autoload_real.php	/^class ComposerAutoloaderInit0b99c8dd6df3283b102a8e838497c4b3$/;"	c
+ComposerStaticInit0b99c8dd6df3283b102a8e838497c4b3	vendor/composer/autoload_static.php	/^class ComposerStaticInit0b99c8dd6df3283b102a8e838497c4b3$/;"	c
+DepthCounter	work/DepthCounter.php	/^class DepthCounter$/;"	c
+InstalledVersions	vendor/composer/InstalledVersions.php	/^class InstalledVersions$/;"	c
+__construct	vendor/composer/ClassLoader.php	/^    public function __construct($vendorDir = null)$/;"	f
+add	vendor/composer/ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f
+addClassMap	vendor/composer/ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f
+addPsr4	vendor/composer/ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f
+apcuPrefix	vendor/composer/ClassLoader.php	/^        $this->apcuPrefix = function_exists('apcu_fetch') && filter_var(ini_get('apc.enabled'), FILTER_VALIDATE_BOOLEAN) ? $apcuPrefix : null;$/;"	v
+apcuPrefix	vendor/composer/ClassLoader.php	/^    private $apcuPrefix;$/;"	v
+baseDir	vendor/composer/autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+canGetVendors	vendor/composer/InstalledVersions.php	/^private static $canGetVendors;$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^            $this->classMap = $classMap;$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^            $this->classMap = array_merge($this->classMap, $classMap);$/;"	v
+classMap	vendor/composer/ClassLoader.php	/^    private $classMap = array();$/;"	v
+classMap	vendor/composer/autoload_real.php	/^            $classMap = require __DIR__ . '\/autoload_classmap.php';$/;"	v
+classMap	vendor/composer/autoload_static.php	/^    public static $classMap = array ($/;"	v
+classMapAuthoritative	vendor/composer/ClassLoader.php	/^        $this->classMapAuthoritative = $classMapAuthoritative;$/;"	v
+classMapAuthoritative	vendor/composer/ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v
+constraint	vendor/composer/InstalledVersions.php	/^$constraint = $parser->parseConstraints($constraint);$/;"	v
+countIncreases	work/DepthCounter.php	/^    public function countIncreases(array $measurements) {$/;"	f
+countSlidingIncreases	work/DepthCounter.php	/^    public function countSlidingIncreases(array $measurements) {$/;"	f
+currentWindow	work/DepthCounter.php	/^            $currentWindow = $measurements[$i-1] + $measurements[$i] + $measurements[$i+1];$/;"	v
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^                $this->fallbackDirsPsr0 = array_merge($/;"	v
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr0 = (array) $paths;$/;"	v
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^                $this->fallbackDirsPsr4 = array_merge($/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^            $this->fallbackDirsPsr4 = (array) $paths;$/;"	v
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v
+file	vendor/composer/ClassLoader.php	/^            $file = $this->findFileWithExtension($class, '.hh');$/;"	v
+file	vendor/composer/ClassLoader.php	/^            $file = apcu_fetch($this->apcuPrefix.$class, $hit);$/;"	v
+file	vendor/composer/ClassLoader.php	/^        $file = $this->findFileWithExtension($class, '.php');$/;"	v
+findFile	vendor/composer/ClassLoader.php	/^    public function findFile($class)$/;"	f
+findFileWithExtension	vendor/composer/ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f
+first	vendor/composer/ClassLoader.php	/^        $first = $class[0];$/;"	v
+first	vendor/composer/ClassLoader.php	/^        $first = $prefix[0];$/;"	v
+getAllRawData	vendor/composer/InstalledVersions.php	/^public static function getAllRawData()$/;"	f
+getApcuPrefix	vendor/composer/ClassLoader.php	/^    public function getApcuPrefix()$/;"	f
+getClassMap	vendor/composer/ClassLoader.php	/^    public function getClassMap()$/;"	f
+getFallbackDirs	vendor/composer/ClassLoader.php	/^    public function getFallbackDirs()$/;"	f
+getFallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f
+getInitializer	vendor/composer/autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f
+getInstalled	vendor/composer/InstalledVersions.php	/^private static function getInstalled()$/;"	f
+getInstalledPackages	vendor/composer/InstalledVersions.php	/^public static function getInstalledPackages()$/;"	f
+getLoader	vendor/composer/autoload_real.php	/^    public static function getLoader()$/;"	f
+getPrefixes	vendor/composer/ClassLoader.php	/^    public function getPrefixes()$/;"	f
+getPrefixesPsr4	vendor/composer/ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f
+getPrettyVersion	vendor/composer/InstalledVersions.php	/^public static function getPrettyVersion($packageName)$/;"	f
+getRawData	vendor/composer/InstalledVersions.php	/^public static function getRawData()$/;"	f
+getReference	vendor/composer/InstalledVersions.php	/^public static function getReference($packageName)$/;"	f
+getRegisteredLoaders	vendor/composer/ClassLoader.php	/^    public static function getRegisteredLoaders()$/;"	f
+getRootPackage	vendor/composer/InstalledVersions.php	/^public static function getRootPackage()$/;"	f
+getUseIncludePath	vendor/composer/ClassLoader.php	/^    public function getUseIncludePath()$/;"	f
+getVersion	vendor/composer/InstalledVersions.php	/^public static function getVersion($packageName)$/;"	f
+getVersionRanges	vendor/composer/InstalledVersions.php	/^public static function getVersionRanges($packageName)$/;"	f
+includeFile	vendor/composer/ClassLoader.php	/^function includeFile($file)$/;"	f
+installed	vendor/composer/InstalledVersions.php	/^$installed = array();$/;"	v
+installed	vendor/composer/InstalledVersions.php	/^$installed = self::getInstalled();$/;"	v
+installed	vendor/composer/InstalledVersions.php	/^private static $installed = array ($/;"	v
+installedByVendor	vendor/composer/InstalledVersions.php	/^private static $installedByVendor = array();$/;"	v
+isClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f
+isInstalled	vendor/composer/InstalledVersions.php	/^public static function isInstalled($packageName)$/;"	f
+iterator	work/DepthCounter.php	/^        $iterator = 0;$/;"	v
+last	work/DepthCounter.php	/^            $last = $currentWindow;$/;"	v
+last	work/DepthCounter.php	/^            $last = $measurements[$i];$/;"	v
+last	work/DepthCounter.php	/^        $last = $measurements[0] + $measurements[1] + $measurements[2];$/;"	v
+last	work/DepthCounter.php	/^        $last = $measurements[0];$/;"	v
+length	vendor/composer/ClassLoader.php	/^            $length = strlen($prefix);$/;"	v
+loadClass	vendor/composer/ClassLoader.php	/^    public function loadClass($class)$/;"	f
+loadClassLoader	vendor/composer/autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f
+loader	vendor/composer/autoload_real.php	/^    private static $loader;$/;"	v
+logicalPathPsr0	vendor/composer/ClassLoader.php	/^            $logicalPathPsr0 = strtr($class, '_', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+logicalPathPsr0	vendor/composer/ClassLoader.php	/^            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)$/;"	v
+logicalPathPsr4	vendor/composer/ClassLoader.php	/^        $logicalPathPsr4 = strtr($class, '\\\\', DIRECTORY_SEPARATOR) . $ext;$/;"	v
+map	vendor/composer/autoload_real.php	/^            $map = require __DIR__ . '\/autoload_namespaces.php';$/;"	v
+map	vendor/composer/autoload_real.php	/^            $map = require __DIR__ . '\/autoload_psr4.php';$/;"	v
+measurements	scripts/day1-0.txt.php	/^$measurements = file('inputs\/day1-0.txt', FILE_IGNORE_NEW_LINES);$/;"	v
+missingClasses	vendor/composer/ClassLoader.php	/^    private $missingClasses = array();$/;"	v
+packages	vendor/composer/InstalledVersions.php	/^$packages = array();$/;"	v
+pathEnd	vendor/composer/ClassLoader.php	/^                    $pathEnd = DIRECTORY_SEPARATOR . substr($logicalPathPsr4, $lastPos + 1);$/;"	v
+prefixDirsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v
+prefixDirsPsr4	vendor/composer/autoload_static.php	/^    public static $prefixDirsPsr4 = array ($/;"	v
+prefixLengthsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v
+prefixLengthsPsr4	vendor/composer/autoload_static.php	/^    public static $prefixLengthsPsr4 = array ($/;"	v
+prefixesPsr0	vendor/composer/ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v
+provided	vendor/composer/InstalledVersions.php	/^$provided = $parser->parseConstraints(self::getVersionRanges($packageName));$/;"	v
+ranges	vendor/composer/InstalledVersions.php	/^$ranges = array();$/;"	v
+ranges	vendor/composer/InstalledVersions.php	/^$ranges = array_merge($ranges, $installed['versions'][$packageName]['aliases']);$/;"	v
+ranges	vendor/composer/InstalledVersions.php	/^$ranges = array_merge($ranges, $installed['versions'][$packageName]['provided']);$/;"	v
+ranges	vendor/composer/InstalledVersions.php	/^$ranges = array_merge($ranges, $installed['versions'][$packageName]['replaced']);$/;"	v
+register	vendor/composer/ClassLoader.php	/^    public function register($prepend = false)$/;"	f
+registeredLoaders	vendor/composer/ClassLoader.php	/^    private static $registeredLoaders = array();$/;"	v
+reload	vendor/composer/InstalledVersions.php	/^public static function reload($data)$/;"	f
+satisfies	vendor/composer/InstalledVersions.php	/^public static function satisfies(VersionParser $parser, $packageName, $constraint)$/;"	f
+search	vendor/composer/ClassLoader.php	/^                $search = $subPath . '\\\\';$/;"	v
+set	vendor/composer/ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f
+setApcuPrefix	vendor/composer/ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f
+setClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f
+setPsr4	vendor/composer/ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f
+setUseIncludePath	vendor/composer/ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f
+subPath	vendor/composer/ClassLoader.php	/^                $subPath = substr($subPath, 0, $lastPos);$/;"	v
+subPath	vendor/composer/ClassLoader.php	/^            $subPath = $class;$/;"	v
+unregister	vendor/composer/ClassLoader.php	/^    public function unregister()$/;"	f
+useIncludePath	vendor/composer/ClassLoader.php	/^        $this->useIncludePath = $useIncludePath;$/;"	v
+useIncludePath	vendor/composer/ClassLoader.php	/^    private $useIncludePath = false;$/;"	v
+useStaticLoader	vendor/composer/autoload_real.php	/^        $useStaticLoader = PHP_VERSION_ID >= 50600 && !defined('HHVM_VERSION') && (!function_exists('zend_loader_file_encoded') || !zend_loader_file_encoded());$/;"	v
+vendorDir	vendor/composer/ClassLoader.php	/^        $this->vendorDir = $vendorDir;$/;"	v
+vendorDir	vendor/composer/ClassLoader.php	/^    private $vendorDir;$/;"	v
+vendorDir	vendor/composer/autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
